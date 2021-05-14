@@ -1,3 +1,5 @@
-import appendHomeContent from "./appendHomeContent"
+import home from "./home"
+import menu from "./menu"
 
-appendHomeContent;
+home;
+menu;
