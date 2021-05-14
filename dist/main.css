@@ -8,8 +8,8 @@ body {
   grid-template-columns: 100%;
   grid-template-rows: 60px calc(100% - 100px) 40px;
   background: linear-gradient(
-    rgba(60, 60, 60, 0.5), 
-    rgba(60, 60, 60, 0.5)),
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)),
     url(static/tuscany-red-hills.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -27,9 +27,10 @@ a {
   grid-row: 1/2;
   display: flex;
   flex-direction: row;
-  background-color: rgba(30, 30, 30, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 0px 20px;
   height: 60px;
+  color: white;
 }
 
 .content {
@@ -51,6 +52,40 @@ a {
   font-family: 'Italianno', cursive;
   color: white;
   font-size: 4vw;
+}
+
+.menu-container {
+  width: 750px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  margin: 80px 0px;
+  padding: 0px 40px 40px 40px;
+}
+
+hr {
+  color: white;
+  margin: 15px 0px;
+  width: 100%;
+}
+
+.category {
+  font-size: 60px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: 'Playball', cursive;
+}
+
+.dish {
+  font-family: 'Playball', cursive;
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.description {
+  color: white;
+  font-size: 15px;
+  padding-left: 20px;
 }
 
 .nav-item {
@@ -80,7 +115,7 @@ a {
   align-items: center;
   grid-column: 1/2;
   grid-row: 3/4;
-  background-color: rgba(30, 30, 30, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 0px 10px;
   height: 40px;
   color: white;
