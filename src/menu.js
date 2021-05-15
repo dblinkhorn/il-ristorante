@@ -8,7 +8,7 @@ let menu = () => {
     const content = document.getElementById("content");
     content.innerHTML = "";
     content.innerHTML = `
-    <div id="menu-container" class="menu-container">
+    <div id="content-container" class="content-container">
     <p class="category">Antipasti</p>
     <hr>
     <p class="dish">Avvoltini di melanzane alla Parmigiana – $18.75</p>
